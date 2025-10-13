@@ -1,13 +1,20 @@
 ﻿git config user.name "Paul Beyssac"
 git config --global user.name "Paul Beyssac" par défaut
 git config –global user.email «paul@beyssac.org»
+git config –global init.defaultBranch main
+
 less config	afficher fichier config page par page
 cat config	afficher fichier config en entier
 touch fichier créer un fichier
+rm fichier supprimer un fichier
 git add TD_MODL.txt
 git commit -m "commit numéro 1"
 git status
 git log
 man git log
 touch 2eFichier.txt
-echo "hzhzhhzhz" > 2eFichier.txt 
+echo "hzhzhhzhz" > 2eFichier.txt
+git commit -am «message»     add et commit en 1
+git show b50ae22
+git remote add origin https://<TOKEN>@github.com/BPaulz3trei
+git remote add origin https://<TOKEN>@github.com/BPaulz3trei/TD_MODL
