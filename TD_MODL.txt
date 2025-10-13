@@ -1,0 +1,6 @@
+﻿git config user.name "Paul Beyssac"
+git config --global user.name "Paul Beyssac" par défaut
+git config –global user.email «paul@beyssac.org»
+less config	afficher fichier config page par page
+cat config	afficher fichier config en entier
+
